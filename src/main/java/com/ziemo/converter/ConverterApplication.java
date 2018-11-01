@@ -3,6 +3,9 @@ package com.ziemo.converter;
 import com.ziemo.converter.converter.SimpleCsvConverter;
 import com.ziemo.converter.exceptions.CsvFormatException;
 import com.ziemo.converter.formatter.OutputFormat;
+import com.ziemo.converter.formatter.OutputFormatterFactory;
+import com.ziemo.converter.reader.FileReader;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.File;
 import java.io.IOException;
@@ -23,10 +26,14 @@ public class ConverterApplication {
 	}
 
 	private static void handleNumberOfArgs(String[] args) throws IOException, CsvFormatException {
+
+		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
+		SimpleCsvConverter converter = (SimpleCsvConverter) context.getBean("simpleCsvConverter");
+
 		OutputFormat format;
 		File file;
 
-		SimpleCsvConverter converter = new SimpleCsvConverter();
+//		SimpleCsvConverter converter = new SimpleCsvConverter(new FileReader(), new OutputFormatterFactory());
 
 		if (args.length == 1) {
 			file = new File(args[0]);
