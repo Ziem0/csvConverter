@@ -9,6 +9,7 @@ import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.io.File;
 import java.io.IOException;
+import java.net.URL;
 
 public class ConverterApplication {
 
@@ -35,15 +36,20 @@ public class ConverterApplication {
 
 //		SimpleCsvConverter converter = new SimpleCsvConverter(new FileReader(), new OutputFormatterFactory());
 
+		ClassLoader cl = ClassLoader.getSystemClassLoader();
+
 		if (args.length == 1) {
-			file = new File(args[0]);
+			URL resource = cl.getResource(args[0]);
+			assert resource != null;
+			file = new File(resource.getFile());
 			converter.convert(file);
 		} else if (args.length == 2) {
+			URL resource = cl.getResource(args[1]);
 			format = OutputFormat.fromString(args[0]);
-			file = new File(args[1]);
+			assert resource != null;
+			file = new File(resource.getFile());
 			converter.convert(format, file);
 		}
-
 
 	}
 }
