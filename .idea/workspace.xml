@@ -2,21 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bbd2affd-b370-40c1-a4df-f75048cbb196" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_projectlombok_lombok_1_18_4.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/AbstractOutputFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/JsonOutputFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/OutputFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/OutputFormatterFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/TableOutputFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/XmlOutputFormatter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/converter/reader/FileReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/csvConverter.iml" beforeDir="false" afterPath="$PROJECT_DIR$/csvConverter.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/data.csv" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/data.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/ziemo/converter/ConverterApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/converter/ConverterApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/ziemo/converter/converter/SimpleCsvConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ziemo/converter/converter/SimpleCsvConverter.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,17 +18,17 @@
       <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ConverterApplication.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ConverterApplication.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/converter/ConverterApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret lean-forward="true" />
+            <state relative-caret-position="296">
+              <caret line="35" column="110" lean-forward="true" selection-start-line="35" selection-start-column="110" selection-end-line="35" selection-end-column="110" />
             </state>
           </provider>
         </entry>
@@ -68,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="OutputFormatterFactory.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="OutputFormatterFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/OutputFormatterFactory.java">
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
@@ -163,11 +150,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/XmlOutputFormatter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/TableOutputFormatter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/JsonOutputFormatter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/converter/ConverterApplication.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/converter/converter/SimpleCsvConverter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/converter/reader/FileReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/OutputFormatterFactory.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ziemo/converter/ConverterApplication.java" />
       </list>
     </option>
   </component>
@@ -194,7 +181,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="194" />
     <option name="width" value="531" />
     <option name="height" value="567" />
@@ -438,12 +425,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1541083970827</updated>
-      <workItem from="1541083972549" duration="16032000" />
+      <workItem from="1541083972549" duration="16863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16032000" />
+    <option name="totallyTimeSpent" value="16863000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1366" height="741" extended-state="6" />
@@ -467,7 +454,7 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.17936508" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.17936508" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Spring" />
       <window_info anchor="bottom" id="Terminal" />
@@ -511,16 +498,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/TableOutputFormatter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/XmlOutputFormatter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="169">
@@ -550,14 +527,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/OutputFormat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#190#191#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#255#256#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/converter/ConverterApplication.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/OutputFormatterFactory.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/converter/reader/FileReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="64">
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/TableOutputFormatter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret lean-forward="true" />
@@ -575,28 +578,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/converter/reader/FileReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/converter/ConverterApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="296">
+          <caret line="35" column="110" lean-forward="true" selection-start-line="35" selection-start-column="110" selection-end-line="35" selection-end-column="110" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/OutputFormat.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-          <folding>
-            <element signature="e#161#162#0" expanded="true" />
-            <element signature="e#190#191#0" expanded="true" />
-            <element signature="e#230#231#0" expanded="true" />
-            <element signature="e#255#256#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ziemo/converter/formatter/OutputFormatterFactory.java">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
 </project>

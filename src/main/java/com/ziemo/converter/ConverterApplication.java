@@ -28,7 +28,7 @@ public class ConverterApplication {
 	private static void handleNumberOfArgs(String[] args) throws IOException, CsvFormatException {
 
 		ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("applicationContext.xml");
-		SimpleCsvConverter converter = (SimpleCsvConverter) context.getBean("simpleCsvConverter");
+		SimpleCsvConverter converter = context.getBean(SimpleCsvConverter.class);
 
 		OutputFormat format;
 		File file;
